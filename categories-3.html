@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJobs - Job Portal</title>
+
+    <link rel="stylesheet" href="assets/fonts/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preload" as="image" href="assets/image/hero-bg.svg">
+    <link rel="preload" as="image" href="assets/image/hero-banner-1.jpg">
+    <link rel="preload" as="image" href="assets/image/hero-banner-2.jpg">
+    <link rel="preload" as="image" href="assets/image/hero-shape-1.svg">
+    <link rel="preload" as="image" href="assets/image/hero-shape-2.png ">
+</head>
+
+<body id="top">
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/image/logo.png" alt="" style="width: 130px;">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <div class="wrapper">
+                    <a href="#" class="logo">
+                        <img src="assets/image/logo.png" alt="" style="width: 130px;">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close-menu" data-nav-toggler>
+                        <img src="assets/image/times.svg" style="width: 20px;" alt="">
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>Categories</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="categories-1.html" class="navbar-link" style="color: var(--kappel);" data-nav-link>Jobs</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="header-action-btn icon-header" aria-label="toggle-search" title="search">
+                    <a href="categories-1.html"><i class='fas fa-search fa-sm'></i></a>
+                </button>
+
+                <button class="header-action-btn icon-header" aria-label="user" title="user">
+                    <a href="user.html"><i class='fas fa-user fa-sm'></i><br></a>
+                </button>
+
+                <a href="login.html" class="btn has-before">
+                    <span class="span">Log In</span>
+                </a>
+
+                <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                    <img src="assets/image/bars.svg" width="25px" aria-hidden="true" alt="">
+                </button>
+            </div>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <!-- category -->
+            <section class="section blog has-bg-image" id="blog" aria-label="blog">
+                <div class="container">
+                    <p class="section-subtitle" style="padding-top: 5rem;">Latest Job Vacancies</p>
+
+                    <h2 class="section-title">Get A Perfect Job With Us</h2>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-1.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-5.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Programming</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">PHP Developer
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Metrodata</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Singapore</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Engineering – Software (Information & Communication Technology).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/video-16.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-13.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Officer</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Social Media Admin
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">Surya Abadi Group</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Malaysia</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Marketing Communications (Marketing & Communications).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/video-15.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-12.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Officer</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Seles Executive
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Metra Net</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Malaysia</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Media Strategy, Planning & Buying (Advertising, Arts & Media).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/video-11.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-8.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Programming</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">UI/UX designer
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">Company Confidential</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Thailand</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Web & Interaction Design (Design & Architecture).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-3.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-2.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Medical Health</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Nurse
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Ciputra Hospital</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Jakarta Raya</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Nursing – Medical & General Surgery (Health & Medical).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-2.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-3.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Officer</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">HR Assistant Manager
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Danamon</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Taiwan</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        General Consulting & HR (Human Resources & Recruitment).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pagination">
+                    <a href="categories-2.html"><span class="pagination__prev-button"> <i class='fas fa-arrow-left fa-xs' aria-hidden="true"></i>Prev </span></a>
+                    <a href="categories-1.html"><span class="pagination__button">1</span></a>
+                    <a href="categories-2.html"><span class="pagination__button">2</span></a>
+                    <a href="categories-3.html"><span class="pagination__button" style="background-color: var(--kappel);
+                        border-color: var(--kappel);
+                        color: #fff;">3</span></a>
+                    <a href="categories-1.html"><span class="pagination__prev-button">Next <i class='fas fa-arrow-right fa-xs' aria-hidden="true"></i></span></a>
+                </div>
+
+            </section>
+
+            <!-- category -->
+
+            <!-- footer -->
+            <footer class="footer" style="background-image: url('assets/image/footer-bg.png');">
+                <div class="footer-top section">
+                    <div class="container grid-list">
+                        <div class="footer-brand">
+                            <a href="#" class="logo">
+                                <img src="assets/image/logo.png" width="162" height="50" alt="EduWeb Logo">
+                            </a>
+
+                            <p class="footer-brand-text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </p>
+
+                            <div class="wrapper">
+                                <span class="span">Add:</span>
+                                <address class="address">70-80 Upper St Norwich NR2</address>
+                            </div>
+
+                            <div class="wrapper">
+                                <span class="span">Call:</span>
+                                <a href="tel:+011234567890" class="footer-link">+01 123 4567 890</a>
+                            </div>
+
+                            <div class="wrapper">
+                                <span class="span">Email:</span>
+                                <a href="mailto:info@eduweb.com" class="footer-link">info@eduweb.com</a>
+                            </div>
+                        </div>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Online Platform</p>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Courses</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Instructor</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Events</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Instructor Profile</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Purchase Guide</a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Links</p>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">News & Articles</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">FAQ's</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Sign In/Registration</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Coming Soon</a>
+                            </li>
+                        </ul>
+
+                        <div class="footer-list">
+                            <p class="footer-list-title">Contacts</p>
+                            <p class="footer-list-text">Enter your email address to register to our newsletter</p>
+
+                            <form action="" class="newsletter-form">
+                                <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+
+                                <button class="btn has-before">
+                                    <span class="span">Subscribe</span>
+                                    <img src="assets/image/arrow-right.svg" aria-hidden="true" alt="" style="width: 20px;">
+                                </button>
+                            </form>
+
+                            <ul class="social-list">
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <!-- logo facebook -->
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <!-- logo facebook -->
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <!-- logo facebook -->
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <!-- logo facebook -->
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <!-- logo facebook -->
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p class="copyright">
+                            Copyright 2022 All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- back to top -->
+            <!-- <a href="#top" class="back-top-btn active" aria-label="back top top" data-back-top-btn>
+                <img src="assets/image/angle-up.svg" alt="" style="width: 30px;" aria-hidden="true">
+            </a> -->
+        </article>
+    </main>
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>

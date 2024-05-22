@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJobs - Job Portal</title>
+
+    <link rel="stylesheet" href="assets/fonts/font.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preload" as="image" href="assets/image/hero-bg.svg">
+    <link rel="preload" as="image" href="assets/image/hero-banner-1.jpg">
+    <link rel="preload" as="image" href="assets/image/hero-banner-2.jpg">
+    <link rel="preload" as="image" href="assets/image/hero-shape-1.svg">
+    <link rel="preload" as="image" href="assets/image/hero-shape-2.png ">
+</head>
+
+<body id="top">
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/image/logo.png" alt="" style="width: 130px;">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <div class="wrapper">
+                    <a href="#" class="logo">
+                        <img src="assets/image/logo.png" alt="" style="width: 130px;">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close-menu" data-nav-toggler>
+                        <img src="assets/image/times.svg" style="width: 20px;" alt="">
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>Categories</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="categories-1.html" class="navbar-link" style="color: var(--kappel);" data-nav-link>Jobs</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="header-action-btn icon-header" aria-label="toggle-search" title="search">
+                    <a href="categories-1.html"><i class='fas fa-search fa-sm'></i></a>
+                </button>
+
+                <button class="header-action-btn icon-header" aria-label="user" title="user">
+                    <a href="user.html"><i class='fas fa-user fa-sm'></i><br></a>
+                </button>
+
+                <a href="login.html" class="btn has-before">
+                    <span class="span">Log In</span>
+                </a>
+
+                <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                    <img src="assets/image/bars.svg" width="25px" aria-hidden="true" alt="">
+                </button>
+            </div>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <!-- category -->
+            <section class="section blog has-bg-image" id="blog" aria-label="blog" style="padding-top: 150px;">
+                <div class="container">
+                    <p class="section-subtitle">Job Vacancies</p>
+
+                    <h2 class="section-title">Get A Perfect Job With Us</h2>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-4.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-1.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Officer</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Costumer Service</a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">KSP Gadai Meruya</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Jakarta Raya</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Facing Consumers (Call Center & Customer Service).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-3.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-2.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Medical Health</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Nurse
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Ciputra Hospital</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Jakarta Raya</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Nursing – Medical & General Surgery (Health & Medical).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-2.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-3.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Officer</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">HR Assistant Manager
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Danamon</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Taiwan</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        General Consulting & HR (Human Resources & Recruitment).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-5.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-4.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Officer</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Seles Group Head</a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Jaya Abadi</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Denpasar, Bali</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Account and Relationship Management (Sales).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-1.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="detail-5.html" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Programming</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">PHP Developer
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Metrodata</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Singapore</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Engineering – Software (Information & Communication Technology).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-6.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="#" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Programming</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">System Analyst
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Tekad Abadi</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Malaysia</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Analyze Programs, Systems and Websites.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="pagination">
+                    <a href="categories-3.html"><span class="pagination__prev-button"> <i class='fas fa-arrow-left fa-xs' aria-hidden="true"></i>Prev </span></a>
+                    <a href="categories-1.html"><span class="pagination__button" style="background-color: var(--kappel);
+                        border-color: var(--kappel);
+                        color: #fff;">1</span></a>
+                    <a href="categories-2.html"><span class="pagination__button">2</span></a>
+                    <a href="categories-3.html"><span class="pagination__button">3</span></a>
+                    <a href="categories-2.html"><span class="pagination__prev-button">Next <i class='fas fa-arrow-right fa-xs' aria-hidden="true"></i></span></a>
+                </div>
+            </section>
+
+
+            <!-- footer -->
+            <footer class="footer" style="background-image: url('assets/image/footer-bg.png');">
+                <div class="footer-top section">
+                    <div class="container grid-list">
+                        <div class="footer-brand">
+                            <a href="#" class="logo">
+                                <img src="assets/image/logo.png" width="162" height="50" alt="EduWeb Logo">
+                            </a>
+        
+                            <p class="footer-brand-text">
+                                Over 10 Years in Providing Job Vacancies Throughout The World.
+                            </p>
+        
+                            <div class="wrapper">
+                                <span class="span">Add:</span>
+                                <address class="address">Udayana Street, Badung, Bali</address>
+                            </div>
+        
+                            <div class="wrapper">
+                                <span class="span">Call:</span>
+                                <a href="tel:+011234567890" class="footer-link">+62 123 4567 890</a>
+                            </div>
+        
+                            <div class="wrapper">
+                                <span class="span">Email:</span>
+                                <a href="mailto:info@mjobs.com" class="footer-link">info@mjobs.com</a>
+                            </div>
+                        </div>
+        
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Menu</p>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">Categories</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">About</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">Contact</a>
+                            </li>
+                        </ul>
+        
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Links</p>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="detail-1.html" class="footer-link">Details</a>
+                            </li>
+                            <li>
+                                <a href="detail-1.html" class="footer-link">Overview</a>
+                            </li>
+                            <li>
+                                <a href="login.html" class="footer-link">Sign In/Registration</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Coming Soon</a>
+                            </li>
+                        </ul>
+        
+                        <div class="footer-list">
+                            <p class="footer-list-title">Contacts</p>
+                            <p class="footer-list-text">Enter your email address to register to our website</p>
+        
+                            <form action="" class="newsletter-form">
+                                <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+        
+                                <a href="login.html"><button class="btn has-before">
+                                    <span class="span">Subscribe</span>
+                                    <img src="assets/image/arrow-right.svg" aria-hidden="true" alt="" style="width: 20px;">
+                                </button></a>
+                            </form>
+        
+                            <ul class="social-list">
+                                <li>
+                                    <a href="www.facebook.com" class="social-link">
+                                        <i class='fab fa-facebook icon-1' style='font-size: 31px;'></i>
+                                    </a>
+                                </li>
+        
+                                <li>
+                                    <a href="www.instagram.com" class="social-link">
+                                        <i class='fab fa-instagram icon-1' style='font-size: 33.5px;'></i>
+                                    </a>
+                                </li>
+        
+                                <li>
+                                    <a href="www.x.com" class="social-link">
+                                        <i class='fab fa-twitter icon-1' style='font-size: 33px;'></i>
+                                    </a>
+                                </li>
+        
+                                <li>
+                                    <a href="www.youtube.com" class="social-link">
+                                        <i class='fab fa-youtube icon-1' style='font-size: 33px;'></i>
+                                    </a>
+                                </li>
+        
+                                <li>
+                                    <a href="www.whatsapp.com" class="social-link">
+                                        <i class='fab fa-whatsapp icon-1' style='font-size: 33px;'></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p class="copyright">
+                            Copyright 2024 All Rights Reserved by <a href="#" class="copyright-link">Mjobs - Job Portal.</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- back to top -->
+            <!-- <a href="#top" class="back-top-btn active" aria-label="back top top" data-back-top-btn>
+                <img src="assets/image/angle-up.svg" alt="" style="width: 30px;" aria-hidden="true">
+            </a> -->
+        </article>
+    </main>
+
+    <script src="assets/js/script.js" defer></script>
+    
+</body>
+</html>
