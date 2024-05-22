@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJobs - Job Portal</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/font.css">
+
+    <link rel="preload" as="image" href="assets/image/hero-bg.svg">
+    <link rel="preload" as="image" href="assets/image/hero-banner-1.jpg">
+    <link rel="preload" as="image" href="assets/image/hero-banner-2.jpg">
+    <link rel="preload" as="image" href="assets/image/hero-shape-1.svg">
+    <link rel="preload" as="image" href="assets/image/hero-shape-2.png ">
+</head>
+<body id="top">
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/image/logo.png" alt="" style="width: 130px;">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <div class="wrapper">
+                    <a href="#" class="logo">
+                        <img src="assets/image/logo.png" alt="" style="width: 130px;">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close-menu" data-nav-toggler>
+                        <img src="assets/image/times.svg" style="width: 20px;" alt="">
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#categories" class="navbar-link" data-nav-link>Categories</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#jobs" class="navbar-link" data-nav-link>Jobs</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="header-action-btn icon-header" aria-label="toggle-search" title="search">
+                    <a href="categories-1.html"><i class='fas fa-search fa-sm'></i></a>
+                </button>
+
+                <button class="header-action-btn icon-header" aria-label="user" title="user">
+                    <a href="user.html"><i class='fas fa-user fa-sm'></i><br></a>
+                </button>
+
+                <a href="login.html" class="btn has-before">
+                    <span class="span">Log In</span>
+                </a>
+
+                <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                    <img src="assets/image/bars.svg" width="25px" aria-hidden="true" alt="">
+                </button>
+            </div>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <!-- hero -->
+            <section class="section hero has-bg-image" id="home" aria-label="home" style="background-image: url(assets/image/hero-bg.svg);">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="h1 section-title">
+                            1000++ Of The <span class="span">Best Jobs</span><br> Just For You
+                        </h1>
+
+                        <p class="hero-text">
+                            Find a job that suitable your abilities and intelligence with us @Mjobs_Job Portal.
+                        </p>
+
+                        <a href="categories-1.html" class="btn has-before">
+                            <span class="span">Find Job Vacancies</span>
+                            <i class='fas fa-arrow-right fa-xs' aria-hidden="true"></i>
+                            <!-- <img src="assets/image/arrow-right.svg" width="20px" aria-hidden="true" alt=""> -->
+                        </a>
+                    </div>
+
+                    <figure class="hero-banner">
+                        <div class="img-holder one" style="--width: 270; --height: 300;">
+                            <img src="assets/image/hero-banner-1.jpg" width="270" height="300" alt="hero banner" class="img-cover">
+                        </div>
+
+                        <div class="img-holder two" style="--width: 240; --height: 370;">
+                            <img src="assets/image/hero-banner-2.jpg" width="240" height="370" alt="hero banner" class="img-cover">
+                        </div>
+
+                        <!-- <img src="assets/image/hero-shape-1.svg" width="380" height="190" alt="" class="shape-hero-shape-1">
+
+                        <img src="assets/image/hero-shape-2.png" width="622" height="551" alt="" class="shape-hero-shape-1"> -->
+                    </figure>
+                </div>
+            </section>
+
+            <!-- category -->
+            <section class="section category" aria-label="category" id="categories">
+                <div class="container">
+                    <p class="section-subtitle">Categories</p>
+
+                    <h2 class="h2 section-title">
+                        Job <span class="span">Vacancy</span> Categories
+                    </h2>
+
+                    <p class="section-text">
+                        There are many categories of job vacancies that you can apply for.
+                    </p>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="category-card" style="--color: 201,63.6%,23.7%;">
+                                <div class="card-icon">
+                                    <img src="assets/image/category-1.svg" width="40" height="40" loading="lazy" alt="Online Degree Programs">
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Medical Health</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <span class="card-badge">20+ Vacancies</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="category-card" style="--color: 193.3,29%,69.6%;">
+                                <div class="card-icon">
+                                    <img src="assets/image/category-2.svg" width="40" height="40" loading="lazy" alt="Non-Degree Programs">
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Government</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <span class="card-badge" style="color: #427D9D;">25+ Vacancies</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="category-card" style="--color: 201,63.6%,23.7%;">
+                                <div class="card-icon">
+                                    <img src="assets/image/category-3.svg" width="40" height="40" loading="lazy" alt="Hybrid Distance Programs">
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Programming</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <span class="card-badge">30+ Vacancies</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="category-card" style="--color: 193.3,29%,69.6%;">
+                                <div class="card-icon">
+                                    <img src="assets/image/category-4.svg" width="40" height="40" loading="lazy" alt="Online Degree Programs">
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Officer</a>
+                                </h3>
+
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <span class="card-badge" style="color: #427D9D;">35+ Vacancies</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- about -->
+            <section class="section about" id="about" aria-label="about">
+                <div class="container">
+                    <figure class="about-banner">
+                        <div class="img-holder" style="--width: 520; --height: 370;">
+                            <img src="assets/image/about-banner.jpg" width="250" height="370" loading="lazy" alt="about banner" class="img-cover">
+                        </div>
+    
+                        <!-- <img src="assets/image/about-shape-1.svg" width="360" height="420" loading="lazy" class="shape about-shape-1" alt=""> -->
+    
+                        <img src="assets/image/about-shapee-2.png" width="371" height="220" loading="lazy" class="shape about-shape-2" alt="">
+    
+                    </figure>
+    
+                    <div class="about-content">
+                        <p class="section-subtitle">About Us</p>
+    
+                        <h2 class="h2 section-title">
+                            Over 10 Years in <span class="span">Providing Job Vacancies</span> Throughout The World
+                        </h2>
+    
+                        <p class="section-text">
+                            Mjobs_Job Portal has been trusted by hundreds of people. We guarantee many things on this website,
+                        </p>
+    
+                        <ul class="about-list">
+                            <li class="about-item">
+                                <img src="assets/image/check.svg" aria-hidden="true" alt="" style="width: 25px;">
+                                
+                                <span class="span">Job vacancies from well-known companies</span>
+                            </li>
+    
+                            <li class="about-item">
+                                <img src="assets/image/check.svg" aria-hidden="true" alt="" style="width: 25px;">
+                                
+                                <span class="span">Clear and reliable job vacancies</span>
+                            </li>
+    
+                            <li class="about-item">
+                                <img src="assets/image/check.svg" aria-hidden="true" alt="" style="width: 25px;">
+                                
+                                <span class="span">Easy to send job applications and get hired</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- courses -->
+            <section class="section blog has-bg-image" id="jobs" aria-label="blog" style="background-image: url('assets/image/video-bg.png');">
+                <div class="container">
+                    <p class="section-subtitle">Latest Job Vacancies</p>
+
+                    <h2 class="section-title">Get A Perfect Job With Us</h2>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-5.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="#" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Officer</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Seles Group Head</a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Jaya Abadi</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Denpasar, Bali</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Account and Relationship Management (Sales).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-3.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="#" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Medical Health</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Nurse
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Ciputra Hospital</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Jakarta Raya</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Nursing – Medical & General Surgery (Health & Medical).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                                    <img src="assets/image/blog-6.png" width="370" height="370" loading="lazy" alt="Become A Better Blogger: Content Planning" class="img-cover">
+                                </figure>
+
+                                <div class="card-content">
+                                    <a href="#" class="card-btn" aria-label="read more">
+                                        <img src="assets/image/arrow-right.svg" style="width: 30px;" aria-label="true" alt="">
+                                    </a>
+
+                                    <a href="#" class="card-subtitle">Programming</a>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">System Analyst
+                                        </a>
+                                    </h3>
+
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <!-- icon calender -->
+                                            <span class="span">PT. Tekad Abadi</span>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <!-- icon bubble -->
+                                            <span class="span">Malaysia</span>
+                                        </li>
+                                    </ul>
+
+                                    <p class="card-text">
+                                        Analyze Programs, Systems and Websites.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a href="categories-1.html" class="btn has-before mx-auto my-auto">
+                        <span class="span">Browse more jobs</span>
+            
+                        <i class='fas fa-arrow-right fa-xs' aria-hidden="true"></i>
+                    </a>
+                </div>
+
+            </section>
+
+            <!-- video -->
+            <section class="section video has-bg-image" aria-label="video">
+                <div class="container">
+                    <div class="video-card">
+                        <div class="video-banner img-holder has-after" style="--width: ; --height: ;">
+                            <img src="assets/image/video-banner.jpg" width="970" height="550" loading="lazy" alt="video banner" class="img-cover">
+
+                            <button class="play-btn" aria-label="play video">
+                                <img src="assets/image/play.svg" style="width: 30px;" alt="" aria-hidden="true">
+                            </button>
+                        </div>
+
+                        <img src="assets/image/video-shape-4.png" width="1089" height="605" loading="lazy" alt="" class="shape video-shape-1">
+
+                        <img src="assets/image/video-shape-3.png" width="158" height="174" loading="lazy" alt="" class="shape video-shape-2">
+                    </div>
+                </div>
+            </section>
+
+            <!-- stats -->
+            <section class="section stats" aria-label="stats">
+                <div class="container">
+                    <ul class="grid-list">
+                        <li>
+                            <div class="stats-card" style="--color: 201,63.6%,23.7%;">
+                                <h3 class="card-title">
+                                    10.3k
+                                </h3>
+
+                                <p class="card-text">
+                                    User Enrolled
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="stats-card" style="--color: 193.3,29%,69.6%;">
+                                <h3 class="card-title">
+                                    10.0k
+                                </h3>
+
+                                <p class="card-text">
+                                    Region Enrolled
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="stats-card" style="--color: 201,63.6%,23.7%;">
+                                <h3 class="card-title">
+                                    4.5k
+                                </h3>
+
+                                <p class="card-text">
+                                    Categories Enrolled
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="stats-card" style="--color: 193.3,29%,69.6%;">
+                                <h3 class="card-title">
+                                    29.3k
+                                </h3>
+
+                                <p class="card-text">
+                                    Job Vacancies Enrolled
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- footer -->
+            <footer class="footer" id="contact" style="background-image: url('assets/image/footer-bg.png');">
+                <div class="footer-top section">
+                    <div class="container grid-list">
+                        <div class="footer-brand">
+                            <a href="#" class="logo">
+                                <img src="assets/image/logo.png" width="162" height="50" alt="EduWeb Logo">
+                            </a>
+        
+                            <p class="footer-brand-text">
+                                Over 10 Years in Providing Job Vacancies Throughout The World.
+                            </p>
+        
+                            <div class="wrapper">
+                                <span class="span">Add:</span>
+                                <address class="address">Udayana Street, Badung, Bali</address>
+                            </div>
+        
+                            <div class="wrapper">
+                                <span class="span">Call:</span>
+                                <a href="tel:+011234567890" class="footer-link">+62 123 4567 890</a>
+                            </div>
+        
+                            <div class="wrapper">
+                                <span class="span">Email:</span>
+                                <a href="mailto:info@mjobs.com" class="footer-link">info@mjobs.com</a>
+                            </div>
+                        </div>
+        
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Menu</p>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">Categories</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">About</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">Contact</a>
+                            </li>
+                        </ul>
+        
+                        <ul class="footer-list">
+                            <li>
+                                <p class="footer-list-title">Links</p>
+                            </li>
+                            <li>
+                                <a href="index.html" class="footer-link">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="detail-1.html" class="footer-link">Details</a>
+                            </li>
+                            <li>
+                                <a href="detail-1.html" class="footer-link">Overview</a>
+                            </li>
+                            <li>
+                                <a href="login.html" class="footer-link">Sign In/Registration</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Coming Soon</a>
+                            </li>
+                        </ul>
+        
+                        <div class="footer-list">
+                            <p class="footer-list-title">Contacts</p>
+                            <p class="footer-list-text">Enter your email address to register to our website</p>
+        
+                            <form action="" class="newsletter-form">
+                                <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+        
+                                <a href="login.html"><button class="btn has-before">
+                                    <span class="span">Subscribe</span>
+                                    <img src="assets/image/arrow-right.svg" aria-hidden="true" alt="" style="width: 20px;">
+                                </button></a>
+                            </form>
+        
+                            <ul class="social-list">
+                                <li>
+                                    <a href="www.facebook.com" class="social-link">
+                                        <i class='fab fa-facebook icon-1' style='font-size: 31px;'></i>
+                                    </a>
+                                </li>
+        
+                                <li>
+                                    <a href="www.instagram.com" class="social-link">
+                                        <i class='fab fa-instagram icon-1' style='font-size: 33.5px;'></i>
+                                    </a>
+                                </li>
+        
+                                <li>
+                                    <a href="www.x.com" class="social-link">
+                                        <i class='fab fa-twitter icon-1' style='font-size: 33px;'></i>
+                                    </a>
+                                </li>
+        
+                                <li>
+                                    <a href="www.youtube.com" class="social-link">
+                                        <i class='fab fa-youtube icon-1' style='font-size: 33px;'></i>
+                                    </a>
+                                </li>
+        
+                                <li>
+                                    <a href="www.whatsapp.com" class="social-link">
+                                        <i class='fab fa-whatsapp icon-1' style='font-size: 33px;'></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="footer-bottom">
+                    <div class="container">
+                        <p class="copyright">
+                            Copyright 2024 All Rights Reserved by <a href="#" class="copyright-link">Mjobs - Job Portal.</a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- back to top -->
+            <a href="#top" class="back-top-btn active" aria-label="back top top" data-back-top-btn>
+                <img src="assets/image/angle-up.svg" alt="" style="width: 30px;" aria-hidden="true">
+            </a>
+
+        </article>
+    </main>
+
+    <script src="assets/js/script.js" defer></script>
+</body>
+</html>

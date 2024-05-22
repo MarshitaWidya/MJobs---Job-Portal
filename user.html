@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJobs - Job Portal</title>
+
+    <link rel="stylesheet" href="assets/fonts/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <link rel="stylesheet" href="assets/css/chatbot.css">
+</head>
+<body> 
+    <div class="dashboard">
+        <div class="sidebar">
+            <h1 class="logo">Mjobs.</h1>
+            <div class="menus">
+                <button><a href="index.html"><img src="assets/image/estate-white.svg" alt="" style="width: 20px;">Home</a></button>
+                <div class="active"><button><a href="user.html"><img src="assets/image/book-alt-white.svg" alt="" style="width: 20px;">Find Jobs</a></button></div>
+                <button><a href="bookmark.html"><img src="assets/image/bookmark.svg" alt="" style="width: 20px;">Bookmark</a></button>
+                <button><a href="profile.html"><img src="assets/image/setting.svg" alt="" style="width: 20px;">Setting</a></button>
+            </div>
+
+            <div class="profile">
+                <img src="assets/image/user-1.png" alt="" class="profile-img">
+                <div class="profile-name">
+                    <h4>Marshita Widya</h4>
+                    <p>User</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- main -->
+        <div class="main">
+            <div class="main-header">
+                <img src="assets/image/bars.svg" alt="" class="menu-bar">
+                <div class="search">
+                    <input type="text" placeholder="Search your best job here...">
+                    <button class="btn-search"><i class='fas fa-search fa-sm'></i></button>
+                </div>
+            </div>
+
+            <div class="filter-wrapper">
+                <h4>Recommendation</h4>
+                <div class="filter">
+                    <button class="btn-filter">Data Science</button>
+                    <button class="btn-filter">Data Engineer</button>
+                    <button class="btn-filter">Data Analyst</button>
+                    <button class="btn-filter">Data Visualization</button>
+                    <button class="btn-filter">CRM Analyst</button>
+                </div>
+            </div>
+
+            <div class="sort">
+                <p>Sort</p>
+                <div class="sort-list">
+                    <select name="" id="">
+                        <option value="0">All</option>
+                        <option value="1">Newest Post</option>
+                        <option value="2">Oldest Post</option>
+                        <option value="3">Most Relevant</option>
+                        <option value="4">Highest Paid</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="card">
+                    <div class="card-left">
+                        <img src="assets/image/blog-4.png" alt="">
+                    </div>
+                    <div class="card-center">
+                        <h3>KSP Gadai Meruya</h3>
+                        <p class="card-detail">Officer: Costumer Service</p>
+                        <p class="card-loc"><img src="assets/image/globe.svg" alt="">Jakarta Raya</p>
+                        <div class="card-sub">
+                            <p><img src="assets/image/schedule.svg" alt="">21 hours ago</p>
+                            <p><img src="assets/image/clock.svg" alt="">Full time</p>
+                            <p><img src="assets/image/user.svg" alt="">3 people</p>
+                        </div>
+                    </div>
+
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="">Costumer Service</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$50k</b>/ month</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left">
+                        <img src="assets/image/blog-3.png" alt="">
+                    </div>
+                    <div class="card-center">
+                        <h3>PT. Ciputra Hospital</h3>
+                        <p class="card-detail">Medical Health: Nurse</p>
+                        <p class="card-loc"><img src="assets/image/globe.svg" alt="">Jakarta Raya</p>
+                        <div class="card-sub">
+                            <p><img src="assets/image/schedule.svg" alt="">15 hours ago</p>
+                            <p><img src="assets/image/clock.svg" alt="">Full time</p>
+                            <p><img src="assets/image/user.svg" alt="">3 people</p>
+                        </div>
+                    </div>
+
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="">Nurse</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$75k</b>/ month</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left">
+                        <img src="assets/image/blog-2.png" alt="">
+                    </div>
+                    <div class="card-center">
+                        <h3>PT. Danamon</h3>
+                        <p class="card-detail">Officer: HR Assistant Manager</p>
+                        <p class="card-loc"><img src="assets/image/globe.svg" alt="">Taiwan</p>
+                        <div class="card-sub">
+                            <p><img src="assets/image/schedule.svg" alt="">17 hours ago</p>
+                            <p><img src="assets/image/clock.svg" alt="">8 hours</p>
+                            <p><img src="assets/image/user.svg" alt="">1 person</p>
+                        </div>
+                    </div>
+
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="">HR Assistant Manager</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$100k</b>/ month</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left">
+                        <img src="assets/image/blog-5.png" alt="">
+                    </div>
+                    <div class="card-center">
+                        <h3>PT. Jaya Abadi</h3>
+                        <p class="card-detail">Officer: Sales Group Head</p>
+                        <p class="card-loc"><img src="assets/image/globe.svg" alt="">Denpasar, Bali</p>
+                        <div class="card-sub">
+                            <p><img src="assets/image/schedule.svg" alt="">23 hours ago</p>
+                            <p><img src="assets/image/clock.svg" alt="">8 hours</p>
+                            <p><img src="assets/image/user.svg" alt="">4 people</p>
+                        </div>
+                    </div>
+
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="">Sales Group Head</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$80k</b>/ month</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left">
+                        <img src="assets/image/blog-1.png" alt="">
+                    </div>
+                    <div class="card-center">
+                        <h3>PT. Metrodata</h3>
+                        <p class="card-detail">Programming: PHP Developer</p>
+                        <p class="card-loc"><img src="assets/image/globe.svg" alt="">Singapore</p>
+                        <div class="card-sub">
+                            <p><img src="assets/image/schedule.svg" alt="">7 hours ago</p>
+                            <p><img src="assets/image/clock.svg" alt="">Full time</p>
+                            <p><img src="assets/image/user.svg" alt="">2 people</p>
+                        </div>
+                    </div>
+
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="">PHP Developer</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$250k</b>/ month</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-left">
+                        <img src="assets/image/blog-6.png" alt="">
+                    </div>
+                    <div class="card-center">
+                        <h3>PT. Tekad Abadi</h3>
+                        <p class="card-detail">Programming: System Analyst</p>
+                        <p class="card-loc"><img src="assets/image/globe.svg" alt="">Malaysia</p>
+                        <div class="card-sub">
+                            <p><img src="assets/image/schedule.svg" alt="">12 hours ago</p>
+                            <p><img src="assets/image/clock.svg" alt="">8 hours</p>
+                            <p><img src="assets/image/user.svg" alt="">3 people</p>
+                        </div>
+                    </div>
+
+                    <div class="card-right">
+                        <div class="card-tag">
+                            <h5>Division</h5>
+                            <a href="">System Analyst</a>
+                        </div>
+                        <div class="card-salary">
+                            <p><b>$180k</b>/ month</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- details job -->
+        <div class="detail">
+            <img src="assets/image/times.svg" alt="" class="close-detail" name="close-outline" style="width: 20px;">
+            <div class="detail-header">
+                <img src="assets/image/blog-4.png" alt="">
+                <h2>KSP Gadai Meruya</h2>
+                <p>Officer: Costumer Service</p>
+            </div>
+            <hr class="divider">
+            <div class="detail-desc">
+                <div class="about">
+                    <h4>About Jobs</h4>
+                    <p>A customer service job typically involves assisting customers with their inquiries, concerns, or issues related to a product or service offered by a company..</p>
+                    <a href="detail-1.html">Read More</a>
+                </div>
+                <hr class="divider">
+                <div class="qualification">
+                    <h4>Qualification</h4>
+                    <ul>
+                        <li>Minimum Bachelor's degree in communications.</li>
+                        <li>Able to work well with the CS team and other departments.</li>
+                        <li>Honest, loyal and highly dedicated.</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="detail-btn">
+                <button class="btn-apply">Apply Now</button>
+                <button class="btn-save">Save Job</button>
+            </div>
+        </div>
+    </div> 
+</body>
+
+    <!-- chatbot -->
+    <button class="chatbot-toggler">
+        <span><img src="assets/image/comment-alt.svg" alt="" style="width: 25px; margin-top: 8px;"></span>
+        <span><img src="assets/image/times-white.svg" alt="" style="width: 25px; margin-top: 8px;"></span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span><img src="assets/image/times-white.svg" alt="" class="close-btn" style="width: 25px; margin-top: 8px;"></span>
+            </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span><img src="assets/image/robot.svg" alt=""></span>
+                <p>Hi there 👋<br>How can I help you today?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+            <span><img src="assets/image/send.svg" alt="" id="send-btn"></span>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/chatbot.js" defer></script>
+</html>
